@@ -1,0 +1,8 @@
+.intro {
+  background: url("../../assets/photo.jpg");
+  height: 100vh;
+  background-position: left;
+  background-size: left;
+  background-repeat: no-repeat;
+  background-color: black;
+}

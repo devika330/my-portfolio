@@ -1,0 +1,58 @@
+.skills {
+  overflow: hidden;
+  width: 95.8vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  height: 60;
+  position: relative;
+  background-color: black;
+}
+.About {
+  font-size: 3rem;
+}
+.Abouttitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.me {
+  letter-spacing: 1px;
+  font-size: medium;
+  padding-left: 80px;
+  padding-right: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tech-stack {
+  padding: 10px;
+}
+.skillset {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.skillset span {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.myskill {
+  margin: 10px;
+}
+img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  margin: 10px;
+}
